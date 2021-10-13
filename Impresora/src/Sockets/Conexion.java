@@ -20,7 +20,7 @@ public class Conexion
         {
             ss = new ServerSocket(PUERTO);//Se crea el socket para el servidor en puerto 1234
             cs = new Socket(); //Socket para el cliente
-            salidaServidor = new DataOutputStream(cs.getOutputStream());
+            
         }
         else
         {
